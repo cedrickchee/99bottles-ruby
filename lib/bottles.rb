@@ -49,7 +49,7 @@ class BottleNumber
     end
   end
 
-  def container(number)
+  def container(delete_me=nil)
     if number == 1
       "bottle"
     else
